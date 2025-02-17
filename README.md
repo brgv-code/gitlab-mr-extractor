@@ -194,4 +194,4 @@ For support:
 
 ---
 
-Created by [Bhargav Venkatesh Babu](https://github.com/brgv-code)
+Created by [Bhargav](https://github.com/brgv-code)
