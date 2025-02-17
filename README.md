@@ -183,7 +183,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support:
 
-1. Check the documentation [here](https://github.com/brgv-code/gitlab-mr-extractor/blob/main/docs/README.md)
+1. Check the documentation [here](https://github.com/brgv-code/gitlab-mr-extractor/blob/main/docs/local-setup.md)
 2. Search existing issues [here](https://github.com/brgv-code/gitlab-mr-extractor/issues)
 3. Create a new issue [here](https://github.com/brgv-code/gitlab-mr-extractor/issues/new)
 
@@ -194,4 +194,4 @@ For support:
 
 ---
 
-Created by [Bhargav Venkatesh Babu](https://github.com/brgv-code)
+Created by [Bhargav](https://github.com/brgv-code)
