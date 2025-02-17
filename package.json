@@ -1,0 +1,60 @@
+{
+  "name": "gitlab-mr-extractor",
+  "version": "1.0.0",
+  "description": "A TypeScript library for extracting and analyzing GitLab merge request data with code diffs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx jest --config jest.config.js",
+    "build": "npx tsc --project tsconfig.json",
+    "start": "npx ts-node examples/gitlab-extractor.ts",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build && npm test",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "example": "ts-node examples/gitlab-extractor.ts"
+  },
+  "keywords": [
+    "gitlab",
+    "merge-request",
+    "diff",
+    "code-analysis",
+    "git",
+    "typescript"
+  ],
+  "author": "Bhargav Venkatesh Babu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brgv-code/gitlab-mr-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brgv-code/gitlab-mr-extractor/issues"
+  },
+  "homepage": "https://github.com/brgv-code/gitlab-mr-extractor#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "json2csv": "^5.0.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/json2csv": "^5.0.7",
+    "@types/node": "^22.13.4",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^2.8.8",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "dotenv": "^16.4.5"
+  }
+}
